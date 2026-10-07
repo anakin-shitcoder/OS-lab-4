@@ -32,7 +32,6 @@ int main(void)
         _exit(EXIT_SUCCESS);
     }
 
-    /* The parent's timer starts with its first instruction after fork(). */
     parent_start = clock();
 
     second_child = fork();
